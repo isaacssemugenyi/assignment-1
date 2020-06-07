@@ -1,91 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
     <!-- Navbar starts here -->
     <div isaac-html="inc/nav.html"></div>
     <!-- navbar ends here -->
 
     <!-- main body -->
-      <div class="container pt-2">
-          <div class="row">
-              <!-- main content -->
+    <div class="container pt-2">
+        <div class="row">
+            <!-- main content -->
             <div class="col-md-8 bg-light mt-1 mb-4 pb-5" id="contact-section">
-              <div class="row">
-                <h5 class="bg-light pt-3 pb-0 px-3">
-                  <blockquote>
-                    <em>
-                    &#8220; It is always once that people meet for the first time, but keeping in touch after 
-                  is what makes them friend &#8221;
-                  </em>
-                </blockquote>
-              </h5>
-                <div class="col-md-12">
-                  <!-- form -->
-                  <form class="py-3 px-3">
-                    <h6 class="text-center py-1"><strong>Let's keep in touch</strong></h6>
-                    <div class="row">
-                      <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
-                      </div>
-                      <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
-                      </div>
-                    </div> <br>
-                    <div class="row">
-                      <div class="col">
-                        <input type="number" class="form-control" placeholder="Phone number">
-                        <small class="text-muted">We'll never share your phone with anyone else.</small>
-                      </div>
-                      <div class="col">
-                        <input type="email" class="form-control" placeholder="Enter email">
-                        <small class="text-muted">We'll never share your email with anyone else.</small>
-                      </div>
-                    </div><br>
-                    <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Enter subject here">
-                    </div>
-                    <div class="form-group">
-                      <label for="">Description</label>
-                      <textarea class="form-control" rows="3"></textarea>
-                    </div>
-
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"> Should we call you back?
-                      </label>
-                    </div>
-                    <button type="submit" class="btn btn-block btn-primary">Submit</button>
-
-                  </form>
-                  <!-- end form -->
+                <div class="row">
+                    <h5 class="bg-light pt-3 pb-0 px-3">
+                        <blockquote>
+                            <em>
+                  &#8220; It is always once that people meet for the first time,
+                  but keeping in touch after is what makes them friend &#8221;
+                </em>
+                        </blockquote>
+                    </h5>
+                    <div class="col-md-12">
+                        <!-- form -->
+                        <form class="py-3 px-3">
+                            <h6 class="text-center py-1">
+                                <strong>Let's keep in touch</strong>
+                            </h6>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name" />
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name" />
+                                </div>
+                            </div>
+                            <br />
+                            <div class="row">
+                                <div class="col">
+                                    <input type="number" class="form-control" placeholder="Phone number" />
+                                    <small class="text-muted">We'll never share your phone with anyone else.</small
+                    >
+                  </div>
+                  <div class="col">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Enter email"
+                    />
+                    <small class="text-muted"
+                      >We'll never share your email with anyone else.</small
+                    >
+                  </div>
                 </div>
-              </div>
-            </div>
-              <!-- end main content -->
+                <br />
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter subject here"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Description</label>
+                  <textarea class="form-control" rows="3"></textarea>
+                </div>
 
-              <!-- sidebar -->
-              <div class="col-md-4">
-                <div isaac-html="inc/sidebar.html"></div>
-              </div>
-              <!-- End sidebar -->
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox" /> Should we call you back?
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-block btn-primary">
+                  Submit
+                </button>
+              </form>
+              <!-- end form -->
+            </div>
           </div>
+        </div>
+        <!-- end main content -->
+
+        <!-- sidebar -->
+        <div class="col-md-4">
+          <div isaac-html="inc/sidebar.html"></div>
+        </div>
+        <!-- End sidebar -->
       </div>
+    </div>
     <!-- End main body -->
 
     <!-- footer -->
     <div isaac-html="inc/footer.html"></div>
     <!-- End footer -->
-    
-      <script src="js/jquery-3.5.1.slim.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/include.js"></script>
-    </body>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/include.js"></script>
+  </body>
 </html>

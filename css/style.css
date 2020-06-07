@@ -1,5 +1,5 @@
 header .jumbotron {
-    height:50vh;
+    height: 50vh;
     margin-bottom: 0;
     background: url(../images/header.jpg) no-repeat 100% 5%;
     -webkit-background-size: cover;
@@ -15,11 +15,14 @@ header .jumbotron {
 }
 
 .card {
-    max-width: 100%; 
+    max-width: 100%;
     max-height: auto;
     box-shadow: 2px 2px 10px rgb(236, 228, 228);
-    border:none;
+    border: none;
 }
+
+
+/* for gallery page */
 
 .card img {
     max-height: 38vh;
@@ -34,7 +37,7 @@ header .jumbotron {
 }
 
 #recent-post li {
-    box-shadow: 0 1px rgba(0, 0, 0, .2);
+    box-shadow: 0 1px rgba(0, 0, 0, 0.2);
 }
 
 #recent-post li:hover {
@@ -49,19 +52,19 @@ header .jumbotron {
 
 #recent-post h5 {
     padding-top: 10px;
-   text-align: center; 
+    text-align: center;
 }
 
 .sidebar {
     margin-top: 5px;
     border-radius: 5px;
-    box-shadow: 2px 2px 20px #ccc9c9,
-                -2px -2px 15px #ccc9c9;
-
+    box-shadow: 2px 2px 20px #ccc9c9, -2px -2px 15px #ccc9c9;
 }
-#gallery h5 { 
+
+#gallery h5 {
     line-height: 1.5;
 }
+
 #scroll-option {
     font-size: 30px;
     margin: -35px 20px 0 0;
@@ -70,6 +73,7 @@ header .jumbotron {
 #team {
     border-radius: 15px;
 }
+
 #team-heading {
     margin-top: 20px;
     font-weight: bold;
@@ -82,21 +86,22 @@ header .jumbotron {
     width: 100%;
     height: 100%;
 }
+
 @media (max-width: 575px) {
     #team .card img {
         border-radius: 0;
         padding: 0;
-        margin-top:0;
-    } 
+        margin-top: 0;
+    }
 }
 
 #team .card-body {
-    border-top: 1px dotted rgba(0, 0, 0, .2);
+    border-top: 1px dotted rgba(0, 0, 0, 0.2);
     background-color: rgb(229, 237, 238);
 }
 
 #team-details hr {
-    border: 1px dotted rgba(0,0,0, .1);
+    border: 1px dotted rgba(0, 0, 0, 0.1);
 }
 
 #contact-section form {
@@ -110,6 +115,10 @@ header .jumbotron {
     border-radius: 50%;
     padding: 10px;
 }
+
+
+/* for blog pages */
+
 .blog img {
     padding: 20px 0;
     max-height: 80vh !important;
@@ -118,3 +127,11 @@ header .jumbotron {
 .blog .card-body p {
     line-height: 1.7;
 }
+
+
+/* index img */
+
+
+/* .index img {
+    padding: -60px 0;
+} */
