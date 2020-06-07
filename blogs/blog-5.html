@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navbar starts here -->
+    <div isaac-html="../inc/blog-nav.html"></div>
+    <!-- navbar ends here -->
+
+    <!-- main body -->
+      <div class="container pt-2">
+          <div class="row">
+              <!-- main content -->
+              <div class="col-md-8 offset-md-2">
+                <div class="card mb-2 blog">
+                  <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" class="card-img-top pl-4 pr-4" alt="Laptop with code">
+                  <div class="card-body py-5">
+                    <h5 class="card-title"><strong>A trickier but simple JavaScript question</strong></h5>
+                    <p class="card-text">Author : <small class="text-muted">Isaac Ssemugenyi</small></p>
+                    <p class="card-text text-justify">
+                      <strong>
+                        Question
+                      </strong>
+                    </p>
+                    <p class="card-text text-justify">
+                      Write a js code that prints to the console the numbers from 1 to 100. 
+                      But for multiples of 3 print “Fizz” instead of the number and for the multiples 
+                      of 5 print “Buzz”. For numbers which are multiples of both 3 and 5 print “FizzBuzz”?
+                    </p>
+                    <p class="card-text text-justify">
+                      <strong>
+                        Answer
+                      </strong>
+                    </p>
+                    <p class="card-text text-justify">
+                      <ol>
+                        <li>We declare a variable</li>
+                        <li>Do a for loop, let y equal to 1 and whenever y is less than x, the loop runs again</li>
+                        <li>Check for y values that are divisible by both 3 and 5 and print FizzBuzz instead of the number</li>
+                        <li>check for y values that are divisible by 3 and print Fizz instead of the number</li>
+                        <li>check for y values that are divisible by 5 and print Buzz instead</li>
+                        <li>Else print the number</li>
+                      </ol>
+                    </p>
+                    <p class="card-text text-justify">
+                      <code>
+                        let x = 100;  <br>
+                        for(let y = 1; y<=x; y++){ <br>
+                          if(y%3==0 && y%5==0){ console.log('FizzBuzz') } <br>
+                          else if(y%3==0){ console.log('Fizz') } <br>
+                          else if(y%5==0){ console.log('Buzz') } <br>
+                          else{ console.log(y) } <br>
+                        }
+                      </code>
+                    </p>
+                    <p class="card-text"><small class="text-muted">First published Jan 9th 2020 on <a href="https://dev.to/isaacpro01/a-trickier-but-simple-javascript-question-95f" target="_blank">dev.to</a></small></p>
+                  </div>
+                </div>
+              </div>
+              <!-- end main content -->
+          </div>
+      </div>
+    <!-- End main body -->
+
+    <!-- footer -->
+    <div isaac-html="../inc/footer.html"></div>
+    <!-- End footer -->
+    
+      <script src="../js/jquery-3.5.1.slim.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/include.js"></script>
+    </body>
+</html>
